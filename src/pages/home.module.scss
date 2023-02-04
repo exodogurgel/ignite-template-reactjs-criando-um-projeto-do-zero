@@ -1,1 +1,58 @@
-// TODO
+.post {
+  width: 100%;
+
+  div {
+    margin-bottom: 1.5rem;
+    a {
+      font-size: 1.75rem;
+      text-decoration: none;
+      line-height: 34px;
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      transition: color 0.2s;
+
+      &:hover {
+        color: var(--pink-500)
+      }
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 22px;
+      text-align: justify;
+    }
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    gap: 1.625rem;
+
+    time, span {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--gray-300)
+    }
+  }
+
+  & + article {
+    margin-top: 3rem;
+  }
+}
+
+.nextPage {
+  display: block;
+  margin-top: 4rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--pink-500);
+  background: 0;
+  border: 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

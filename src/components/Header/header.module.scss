@@ -1,1 +1,14 @@
-// TODO
+.container {
+  width: 100%;
+  padding: 2.5rem 0;
+
+  > div {
+    max-width: 720px;
+    margin: 0 auto;
+
+    img {
+      margin-right: auto;
+      cursor: pointer;
+    }
+  }
+}
